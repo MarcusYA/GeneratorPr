@@ -1,12 +1,35 @@
 let tryck = document.getElementById("knapp");
 let visruta = document.getElementById("visa");
-let MarcIn = [
+let MarcIn = 
+[
     "Född: 13 Juli", 
     "Mellannamn: Yates",
     "Längd: 192cm",
 ]
 
+let MarcNr = 
+[
+    "Nr 1", 
+    "Nr 2",
+    "Nr 3",
+]
+
+
 tryck.addEventListener("click", function() {
-    let informat = MarcIn[Math.floor(Math.random() * MarcIn.lenth)];
-    visruta.innerHTML = informat;
+    let avgNr = Math.floor(Math.random) * MarcIn.length
+
+    let informat = MarcIn[avgNr];
+    visa.innerHTML = informat;
+
+    let informatNr = MarcNr[avgNr];
+    visa.innerHTML = informatNr;
 })
+
+
+
+/*
+tryck.addEventListener("click", function() {
+    let informat = MarcIn[Math.floor(Math.random() * MarcIn.length)];
+    visa.innerHTML = informat;
+})
+*/
