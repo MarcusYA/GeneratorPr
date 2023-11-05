@@ -1,10 +1,14 @@
 .button1 {
     background-color: blueviolet;
     border-color: white;
-    color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 18px;
 }
 
 .button1:hover {
     background-color: white;
     border-color: blueviolet;
+    color: black;
+
 }
