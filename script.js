@@ -1,7 +1,7 @@
 
 
 const weather = () => {
-    let nummer = Math.floor(Math.random()* 10) + 1;
+    let nummer = Math.floor(Math.random()* 4) + 1;
     
     switch (nummer) {
         case 1:
