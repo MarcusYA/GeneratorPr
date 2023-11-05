@@ -16,13 +16,13 @@ let MarcNr =
 
 
 tryck.addEventListener("click", function() {
-    let avgNr = Math.floor(Math.random) * MarcIn.length
-
+    let avgNr = Math.floor(Math.random() * MarcIn.length)
+    console.log(avgNr)
     let informat = MarcIn[avgNr];
     visa.innerHTML = informat;
 
     let informatNr = MarcNr[avgNr];
-    visa.innerHTML = informatNr;
+    NrVisa.innerHTML = informatNr;
 })
 
 
